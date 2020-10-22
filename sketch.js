@@ -14,7 +14,7 @@ function setup() {
     button.mousePressed(togglePlaying);
 
     //Jump at a particular section
-    jumpButton = createButton("jump");
+    jumpButton = createButton("jump at random");
     jumpButton.mousePressed(jumpSong);
     background(51);
     //Drawing Pan and Rate slider
